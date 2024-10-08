@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Diplomata&family=Emilys+Candy&family=IM+Fell+English:ital@0;1&family=Londrina+Solid:wght@100;300;400;900&family=Ultra&display=swap');
+
+body {
+    font-family: 'IM Fell English', sans-serif;
+    font-size: 1.6rem;
+    color: #313131;
+}
+
+h1 {
+    font-family: 'Emilys Candy', sans-serif;
+    text-transform: uppercase;
+    font-size: 6rem;
+    text-align: center;
+}
+
+h1 span {
+    font-size: 1.2rem;
+}
+
+.slogan {
+    font-size: 1.2rem;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+}
+
+aside.ads-manu {
+    color: #ede1e1;
+    font-size: 1.4rem;
+}
+
+aside.ads-manu h2 {
+    font-family: 'Londrina Solid', sans-serif;
+    font-size: 2.4rem;
+    line-height: 1em;
+}
+
+aside.ads-meteo h2 {
+    font-family: 'Ultra', sans-serif;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+
+aside.ads-meteo li {
+    font-variant: small-caps;
+}
+
+aside.ads-zodiac h2 {
+    font-style: italic;
+}
+
+aside.ads-num .stamp {
+    color: #ede1e1;
+}
+
+div.stamp p:first-child {
+    text-transform: capitalize;
+}
+
+/* .ads-num.stamp p:last-of-type, .ads-num .stamp p+p*/
+div.stamp p:last-child {
+    font-family: 'Ultra', sans-serif;
+}
+
+main h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.main-topic h2 span:first-child {
+    font-family: 'Londrina Solid', sans-serif;
+    font-size: 7.5rem;
+}
+
+.main-topic h2 span:nth-child(2) {
+    font-family: 'Diplomata', sans-serif;
+    font-size: 2.6rem;
+}
+
+.main-topic h2 span:last-child {
+    font-size: 3.2rem;
+}
+
+div.text p:first-of-type::first-letter {
+    font-family: 'Diplomata', sans-serif;
+    font-size: 4.5rem;
+    color: #ede1e1;
+}
+
+div.text p:last-child {
+    text-align: right;
+    font-weight: bold;
+}
+
+footer h2 {
+    font-family: 'Diplomata', sans-serif;
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+footer h2+p {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+footer h2+p strong {
+    font-family: 'Londrina', sans-serif;
+    font-size: 1.2em;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #313131;
+
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+/* a[href="#2"] span */
+footer nav a:first-child span {
+    font-size: 6rem;
+}
+
+footer nav a:nth-child(2) span {
+    font-family: 'Diplomata', sans-serif;
+    font-size: 3rem;
+}
+
+footer nav a:nth-child(3) {
+    font-family: 'Londrina Solid', sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+footer nav a:nth-child(3) span {
+    font-family: 'IM Fell English', sans-serif;
+    font-size: 6rem;
+    font-weight: normal;
+}
+
+footer nav a:last-child {
+    font-family: 'Emilys Candy', sans-serif;
+    font-size: 3rem;
+}
+
+footer nav a:last-child span {
+    font-family: 'Diplomata', sans-serif;
+    font-size: 3rem;
+}
